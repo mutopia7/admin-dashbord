@@ -51,3 +51,113 @@ body{
 .sidebar .seperate{
     margin-top: 50px !important;
 }
+
+/* right section */
+
+.main{
+    display: grid;
+    grid-template: 200px 1fr / 1fr;
+    width: 100%;
+}
+
+.header{
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    
+    
+}
+
+main{
+    background-color: #E2E8F0;
+    padding: 1.5rem 2rem;
+    
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex; 
+    align-items: center;
+    gap: 202px;
+}
+
+.search button{
+    border: none;
+    
+    background-color: transparent;
+
+}
+
+.search input{
+    border: none;
+    background-color: #E2E8F0;
+    border-radius: 1em;
+    padding: 0.4rem 1rem;
+    margin-left: 20em;
+    width: 40em;
+    height: 2.2em;
+}
+
+
+.admin{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.admin::before{
+    content:  url(/icons/bell-outline.svg);
+    margin-right: 20px;
+}
+
+.admin:hover::before{
+    content: url(/icons/bell.svg);
+    margin-right: 20px;
+
+}
+
+.bottom{
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-logo{
+    display: flex;
+    align-items: center;
+}
+
+.admin-logo div{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.acction button{
+    border: none;
+    background-color: rgb(1, 143, 199);
+    color: white;
+    border-radius: 1.5em;
+    padding: 0.6rem 1.75rem;
+    font-weight: bold;
+    margin-right: 10px !important;
+    cursor: pointer;
+}
+
+.acction button:hover{
+    background-color: white;
+    color: rgb(1, 143, 199);
+    border:1px solid rgb(1, 143, 199);
+}
+
