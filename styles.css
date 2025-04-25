@@ -208,3 +208,14 @@ main .projects .project-items{
     display: flex;
     gap: 15px;
 }
+
+.small{
+    color: #666;
+    font-size: 0.7rem;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+}
+
+
