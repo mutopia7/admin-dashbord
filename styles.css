@@ -193,7 +193,18 @@ main .projects .project-items{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border-left: 0.5rem solid #F0B429;
     min-height: 250px;
 }
 
+.project-explain{
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.icon-group{
+    direction: rtl;
+    display: flex;
+    gap: 15px;
+}
